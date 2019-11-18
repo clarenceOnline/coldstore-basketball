@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'ColdharbourGothic';
+    src: url('../../vendors/fonts/ColdharbourGothic.eot');
+    src: url('../../vendors/fonts/ColdharbourGothic.eot?#iefix') format('embedded-opentype'),
+    url('../../vendors/fonts/ColdharbourGothic.woff2') format('woff2'),
+    url('../../vendors/fonts/ColdharbourGothic.woff') format('woff'),
+    url('../../vendors/fonts/ColdharbourGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    font-family: 'lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+
+}
+
+div .navigation-bar {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+
+}
+
+.logo:hover {
+    transform: scale(1.2)
+}
+
+nav {
+    float: right
+}
+
+ul {
+    display: inline-block;
+    margin-top: 50px;
+    list-style: none;
+
+}
+
+ul li {
+    color: #fff;
+    font-size: 80%;
+    font-weight: 300;
+    display: inline;
+    margin-right: 20px;
+    letter-spacing: 1px;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-body {
+    background: linear-gradient(rgba(36, 62, 75, 0.7), rgba(0, 0, 0, 0.99)), url(img/cbt_image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.container-main {
+    max-width: 1140px;
+    margin: 0 auto;
+    color: #fff;
+
+}
+
+.main-text-box {
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    letter-spacing: 2px;
+}
+
+p {
+    margin: 0px;
+    color: #fff;
+    font-family: 'ColdharbourGothic', Arial, sans-serif;
+    font-size: 100%;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+h1 {
+    font-family: 'ColdharbourGothic', Arial, sans-serif;
+    margin: 0px;
+    color: #fff;
+    font-size: 400%;
+    font-weight: normal;
+}
+
+div .foot-text-box {
+    color: #fff;
+    width: 1140px;
+    margin: 0 auto;
+    font-weight: 200;
+    font-size: 70%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 1%;
+
+
+
+}
+
+.foot-text-box p {
+    font-family: 'loto', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.28);
+    font-weight: 100;
+    font-size: 70%;
+    margin-top: 5px;
+}
+
+.foot-text-box em {
+    font-family: 'loto', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.28);
+    ;
+    font-weight: 100;
+    font-size: 100%;
+}
+
+.copyright-section {
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+}
+
+.sponser-section {
+    display: inline-block;
+    float: right;
+}
+
+.sponser-section p {
+    display: inline;
+    float: left;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+.nwgl-logo {
+    height: 38px;
+    width: auto;
+    display: inline-block;
+    float: right;
+    opacity: 0.5;
+}
